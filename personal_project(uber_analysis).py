@@ -271,8 +271,6 @@ heat_map = folium.Map(location=[40.7128, -74.0060], zoom_start=12)
 HeatMap(pickup_locations[:10000], radius=7, blur=5).add_to(heat_map)
 heat_map
 
-"""### **Feature Engineering**"""
-
 #1. Cluster Pickups Using K-Means
 
 from sklearn.cluster import KMeans
